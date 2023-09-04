@@ -44,13 +44,15 @@ class _ChatPageState extends State<ChatPage> {
   }
 
   void scrollToBottom() {
-    double maxScroll = _scrollCtrl.position.maxScrollExtent;
+    if (_scrollCtrl.positions.isNotEmpty) {
+      double maxScroll = _scrollCtrl.position.maxScrollExtent;
 
-    _scrollCtrl.animateTo(
-      maxScroll,
-      duration: const Duration(milliseconds: 500),
-      curve: Curves.easeInOut,
-    );
+      _scrollCtrl.animateTo(
+        maxScroll,
+        duration: const Duration(milliseconds: 500),
+        curve: Curves.easeInOut,
+      );
+    }
   }
 
   void sendMessage() {
