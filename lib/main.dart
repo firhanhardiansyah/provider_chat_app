@@ -29,6 +29,7 @@ class MainApp extends StatelessWidget {
       ),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
+        title: 'NgobroApp',
         theme: ThemeData(
           useMaterial3: true,
           colorSchemeSeed: const Color(0xFF016BFD),
