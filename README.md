@@ -2,20 +2,9 @@
 
 Resources: https://youtu.be/mBBycL0EtBQ?si=Uue11wR_aKd4SZmn
 
-## Screenshot App
+## About this app
 
-### Sign In
-
-<p align="center"><img src="assets/images/docs/sign_in.png?raw=true" alt="Dart diagram"></p>
-
-### Sign Up
-
-<p align="center"><img src="assets/images/docs/sign_up.png?raw=true" alt="Dart diagram"></p>
-
-### Home Page
-
-<p align="center"><img src="assets/images/docs/home_page.png?raw=true" alt="Dart diagram"></p>
-
-### Chat Page
-
-<p align="center"><img src="assets/images/docs/chat_page.png?raw=true" alt="Dart diagram"></p>
+<img src="assets/images/docs/sign_in.png?raw=true" alt="Sign In" width="284">
+<img src="assets/images/docs/sign_up.png?raw=true" alt="Sign Up" width="284">
+<img src="assets/images/docs/home_page.png?raw=true" alt="Home Page" width="284">
+<img src="assets/images/docs/chat_page.png?raw=true" alt="Chat Page" width="284">
